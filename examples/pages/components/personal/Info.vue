@@ -9,7 +9,7 @@
       <div slot="content" :class="{'red-text': vals[i] === '未填写'}">{{vals[i]}}{{vals[i] !== '未填写' && item.name === '体重' ? 'kg' : ''}}{{vals[i] !== '未填写' &&item.name === '身高' ? 'cm' : ''}}</div>
     </cell>
     <popup-picker :list="listEdu" :show="showPop1" v-sync:show="showPop1" v-model="vals[curIndex]"></popup-picker>
-    <popup-date-picker :show="showPop2" v-sync:show="showPop2" :year="listEdu" :day="false" v-model="vals[curIndex]" valueSeparator="." tow-digit-month></popup-date-picker>
+    <popup-date-picker :show="showPop2" v-sync:show="showPop2" :year="listEdu" :day="false" :month="[00, 99]" v-model="vals[curIndex]" valueSeparator="." tow-digit-month></popup-date-picker>
   </div>
 </template> 
 <script>
