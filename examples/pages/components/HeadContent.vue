@@ -82,6 +82,7 @@
           min-height: .34rem;
           float: left;
           margin-left: -.42rem;
+          margin-top: .04rem;
         }
       }
     }
