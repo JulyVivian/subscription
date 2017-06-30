@@ -1,8 +1,10 @@
 <template>
   <div class="action-box">
-    <p v-if="des && type !== 'recharge'">{{datas.month}}月{{datas.day}}日{{datas.time}}<b>¥{{datas.price}}</b></p>
-    <p v-else-if="des && type === 'recharge'" class="recharge"><b>¥{{datas.price}}</b>送¥{{datas.add}}</p>
-    <v-button type="primary" @click="_onClick">{{btnText}}</v-button>
+    <div class="wrap">
+      <p v-if="des && type !== 'recharge'">{{datas.month}}月{{datas.day}}日{{datas.time}}<b>¥{{datas.price}}</b></p>
+      <p v-else-if="des && type === 'recharge'" class="recharge"><b>¥{{datas.price}}</b>送¥{{datas.add}}</p>
+      <v-button type="primary" @click="_onClick">{{btnText}}</v-button>
+    </div>
   </div>
 </template>
 <script>
@@ -41,8 +43,15 @@
     bottom: 0;
     right: 0;
     left: 0;
-    display: flex;
     border-top: 1px solid #333333;
+    .wrap{
+      display: flex;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
     .recharge{
       b{
         margin-left: 0;

@@ -83,7 +83,7 @@ fs.readdir(path.resolve(__dirname, 'plugins'), function(stat) {
     });
 });
 
-var uri = 'http://localhost:' + port;
+var uri = 'http://10.15.128.48:' + port;
 
 devMiddleware.waitUntilValid(function () {
     console.log('> Listening at ' + uri + '\n')
