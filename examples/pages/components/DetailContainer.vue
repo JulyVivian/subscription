@@ -84,9 +84,9 @@
             line-height: .48rem;
           }
           p{
-            min-height: .62rem;
-            line-height: .62rem;
-            font-size: .24rem;
+            line-height: .35rem;
+            padding: .13rem 0;
+            font-size: .26rem;
           }
         }
       }

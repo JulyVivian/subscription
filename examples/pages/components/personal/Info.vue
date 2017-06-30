@@ -146,10 +146,10 @@
             li{
               background-color: #ffffff;
               color: #000000;
-              font-size: .32rem;
+              font-size: .38rem;
             }
             li.current{
-              font-size: .32rem;
+              font-size: .52rem;
             }
           }
         }
