@@ -48,6 +48,13 @@
     padding: .3rem .29rem;
     ul{
       width: 6.92rem;
+      li.not-valid{
+        .list-bd{
+          .price, .title {
+            color: #cccccc;
+          }         
+        }
+      }
       li{
         width: 6.32rem;
         height: 1.96rem;
