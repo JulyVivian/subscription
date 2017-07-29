@@ -8,11 +8,11 @@
             <p @click="jump('myappoint')" class="my-pre"><img src="../assets/myappoint.png"/>我的预约<span>2</span><img src="../assets/enter.png" class="enter"/></p>
         </div>
         <ul class="lessons clx">
-            <li @click="jump('trader')"><img src="http://m.6pence.cn/img/1.png"/></li>
-            <li @click="jump('group')"><img src="http://m.6pence.cn/img/2.png"/></li>
-            <li @click="jump('playground')"><img src="http://m.6pence.cn/img/3.png"/></li>
-            <li @click="jump('recharge')"><img src="http://m.6pence.cn/img/4.png"/></li>
-            <li @click="jump('recommend')"><img src="http://m.6pence.cn/img/5.png"/></li>
+            <li @click="jump('trader')"><img src="http://static.6pence.cn/imgs/1.png"/></li>
+            <li @click="jump('group')"><img src="http://static.6pence.cn/imgs/2.png"/></li>
+            <li @click="jump('playground')"><img src="http://static.6pence.cn/imgs/3.png"/></li>
+            <li @click="jump('recharge')"><img src="http://static.6pence.cn/imgs/4.png"/></li>
+            <li @click="jump('recommend')"><img src="http://static.6pence.cn/imgs/5.png"/></li>
         </ul>
     </div>
 </template>
@@ -26,15 +26,15 @@
             return {
                 items: [
                     {
-                        image: 'http://m.6pence.cn/img/homebanner1.jpg',
+                        image: 'http://static.6pence.cn/imgs/homebanner1.jpg',
                         title: '',
                         link: ''
                     }, {
-                        image: 'http://m.6pence.cn/img/homebanner2.jpg',
+                        image: 'http://static.6pence.cn/imgs/homebanner2.jpg',
                         title: '',
                         link: ''
                     }, {
-                        image: 'http://m.6pence.cn/img/homebanner3.jpg',
+                        image: 'http://static.6pence.cn/imgs/homebanner3.jpg',
                         title: '',
                         link: ''
                     }
@@ -44,6 +44,13 @@
         components: {
             Cell,
             Slider
+        },
+        beforeMount () {
+          localStorage.setItem('sub', this.$route.query['_q'])        
+        },
+        mounted() {
+          let token = localStorage.getItem('sub')
+          console.log(token)
         },
         methods: {
             jump(path) {

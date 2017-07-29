@@ -99,7 +99,7 @@
         background-size: contain;
       }
       .not-valid{
-        background: url('http://m.6pence.cn/img/notvalid.png') no-repeat;
+        background: url('http://static.6pence.cn/imgs/notvalid.png') no-repeat;
         background-size: contain;
       }
     }

@@ -9,7 +9,7 @@
 
                 <slot name="tabItem" :item="item" :index="$index">
                     <img :src="item.pic" />
-                    <img class="arrow" src="http://m.6pence.cn/img/arrow.png"/>
+                    <img class="arrow" src="http://static.6pence.cn/imgs/arrow.png"/>
                 </slot>
             </div>
         </div>

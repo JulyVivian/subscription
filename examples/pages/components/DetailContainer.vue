@@ -8,8 +8,8 @@
     </cell>
     <div v-if="title === '课程介绍'" class="intro-box">
       <p>减脂不是一件简单的事，也不是一件非常难的事。你需要耐心和决心，长期可坚持的减脂方法才是最好的。<br>可能你试过各种减脂的方法，这一次可能是最正确的！<br>每周三次的减脂训练，让你从入门到精通，减脂从此不再困惑。<br>下定决心，跟着我们一起进行燃脂挑战吧！</p>
-      <img src="http://m.6pence.cn/img/detailpic1.jpg"/>
-      <img src="http://m.6pence.cn/img/detailpic2.jpg"/>
+      <img src="http://static.6pence.cn/imgs/detailpic1.jpg"/>
+      <img src="http://static.6pence.cn/imgs/detailpic2.jpg"/>
       <ul>
         <li>
           <h6>训练效果</h6>

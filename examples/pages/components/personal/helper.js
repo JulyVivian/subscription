@@ -67,7 +67,7 @@ export const grouplessons = [
     date: '5月16日 19:30-20:30',
     tradefor: '反重力瑜伽',
     lessonteacher: '教练：母其弥雅',
-    pic: 'http://m.6pence.cn/img/history3-4.png',
+    pic: 'http://static.6pence.cn/imgs/history3-4.png',
     status: 'cancellappoint',
     price: '70'
   },
@@ -75,7 +75,7 @@ export const grouplessons = [
     date: '5月16日 19:30-20:30',
     tradefor: '花式游泳',
     lessonteacher: '教练：母其弥雅',
-    pic: 'http://m.6pence.cn/img/history3-3.png',
+    pic: 'http://static.6pence.cn/imgs/history3-3.png',
     status: 'gopunch',
     price: '99'
   },
@@ -83,7 +83,7 @@ export const grouplessons = [
     date: '5月16日 19:30-20:30',
     tradefor: '减脂私教',
     lessonteacher: '教练：母其弥雅',
-    pic: 'http://m.6pence.cn/img/history3-2.png',
+    pic: 'http://static.6pence.cn/imgs/history3-2.png',
     status: 'cancell',
     price: '230'
   },
@@ -91,7 +91,7 @@ export const grouplessons = [
     date: '5月16日 19:30-20:30',
     tradefor: '热瑜伽',
     lessonteacher: '教练：母其弥雅',
-    pic: 'http://m.6pence.cn/img/history3-1.png',
+    pic: 'http://static.6pence.cn/imgs/history3-1.png',
     status: 'hastake',
     price: '230'
   }
@@ -102,7 +102,7 @@ export const traderlessons = [
     date: '5月16日 19:30-20:30',
     tradefor: 'Alice',
     lessonteacher: '减脂 瑜伽',
-    pic: 'http://m.6pence.cn/img/history5-1.png',
+    pic: 'http://static.6pence.cn/imgs/history5-1.png',
     status: 'cancellappoint',
     price: '200'
   },
@@ -110,7 +110,7 @@ export const traderlessons = [
     date: '5月16日 19:30-20:30',
     tradefor: 'MOMO',
     lessonteacher: '塑形 力量',
-    pic: 'http://m.6pence.cn/img/history5-2.png',
+    pic: 'http://static.6pence.cn/imgs/history5-2.png',
     status: 'gopunch',
     price: '380'
   },
@@ -118,7 +118,7 @@ export const traderlessons = [
     date: '5月16日 19:30-20:30',
     tradefor: '王子健',
     lessonteacher: '减脂 跑步',
-    pic: 'http://m.6pence.cn/img/history5-3.png',
+    pic: 'http://static.6pence.cn/imgs/history5-3.png',
     status: 'cancell',
     price: '230'
   },
@@ -126,7 +126,7 @@ export const traderlessons = [
     date: '5月16日 19:30-20:30',
     tradefor: 'Jessica',
     lessonteacher: '减脂 瑜伽',
-    pic: 'http://m.6pence.cn/img/history5-4.png',
+    pic: 'http://static.6pence.cn/imgs/history5-4.png',
     status: 'hastake',
     price: '180'
   }
@@ -138,7 +138,7 @@ export const playgroundlessons = [
     downcount: '21',
     price: 3999,
     status: 'hassign',
-    pic: 'http://m.6pence.cn/img/ground1.png'
+    pic: 'http://static.6pence.cn/imgs/ground1.png'
   }
 ]
 

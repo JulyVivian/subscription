@@ -13,12 +13,12 @@
       </form>
     </div>
     <div v-else class="getinvitated">
-      <img class="pic" src="http://m.6pence.cn/img/p3.png"/>
+      <img class="pic" src="http://static.6pence.cn/imgs/p3.png"/>
       <h6>Sandy</h6>
       <p>邀请您来操场操练起来！</p>
       <button class="bind-btn">立即赴约</button>      
     </div>
-    <img class="bottom-bg-pic" src="http://m.6pence.cn/img/down.jpg"/>
+    <img class="bottom-bg-pic" src="http://static.6pence.cn/imgs/down.jpg"/>
   </div>
 </template>
 <script>
@@ -60,7 +60,7 @@
 <style lang="less" scope>
   .beinvitated-box{
     width: 7.5rem;
-    background: url('http://m.6pence.cn/img/up.jpg') no-repeat top center;
+    background: url('http://static.6pence.cn/imgs/up.jpg') no-repeat top center;
     background-size: contain;
     padding-top: 2.62rem;
     text-align: center;
@@ -125,7 +125,7 @@
   }
   .getinvitated{
     width: 7.5rem;
-    background: url('http://m.6pence.cn/img/up.jpg') no-repeat top center;
+    background: url('http://static.6pence.cn/imgs/up.jpg') no-repeat top center;
     background-size: contain;
     padding-top: 2.62rem;
     text-align: center;

@@ -13,6 +13,9 @@
   </div>
 </template>
 <script>
+  // import api from '../../../api/login'
+import Fetch from '../../../common/fetch'
+
   export default {
     data () {
       return {
@@ -37,10 +40,18 @@
         clearInterval(this.Interval);
       }
         this.stop = !this.stop;
+        let token = localStorage.getItem('sub')
+        Fetch('//api.6pence.cn/verifyCode', { method: 'POST', body: 'type=bind&mobile=18321757056', headers: {authorization: token} })
+        .then(data => {
+          console.log(123)
+        })
       },
       goToAgreement () {
         this.$router.push('/login/useragreement')
       }
+    },
+    beforeMount () {
+      localStorage.setItem('sub', this.$route.query['_q'])        
     }
   }
 </script>
