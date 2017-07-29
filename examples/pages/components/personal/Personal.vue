@@ -49,7 +49,7 @@
   .personal-box{
     padding: .2rem 0;
     .card{
-      background: url('http://static.6pence.cn/img/card.png') no-repeat top center;
+      background: url('http://m.6pence.cn/img/card.png') no-repeat top center;
       height: 3.67rem;
       background-size: contain;
       padding: .34rem .3rem .24rem;

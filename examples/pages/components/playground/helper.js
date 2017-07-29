@@ -9,14 +9,14 @@ export const playgrounds = [
     teachers: [{
       name: 'Jason Qiu',
       detail: '美国运动委员会(ACE)认证私人教练／线上运动教学4年/训练课程总监',
-      pic: 'http://static.6pence.cn/img/p1.png'
+      pic: 'http://m.6pence.cn/img/p1.png'
     },
     {
       name: 'Lily Chen',
       detail: '美国运动委员会(ACE)认证私人教练／线上运动教学4年/训练课程总监',
-      pic: 'http://static.6pence.cn/img/p3.png'
+      pic: 'http://m.6pence.cn/img/p3.png'
     }],
-    pic: 'http://static.6pence.cn/img/ground1.png'
+    pic: 'http://m.6pence.cn/img/ground1.png'
   }, {
     id: '11',
     lessonname: '【翘臀】PeachPlay蜜桃臀挑战',
@@ -27,13 +27,13 @@ export const playgrounds = [
     teachers: [{
       name: 'Jason Qiu',
       detail: '美国运动委员会(ACE)认证私人教练／线上运动教学4年/训练课程总监',
-      pic: 'http://static.6pence.cn/img/p1.png'
+      pic: 'http://m.6pence.cn/img/p1.png'
     },
     {
       name: 'Lily Chen',
       detail: '美国运动委员会(ACE)认证私人教练／线上运动教学4年/训练课程总监',
-      pic: 'http://static.6pence.cn/img/p3.png'
+      pic: 'http://m.6pence.cn/img/p3.png'
     }],
-    pic: 'http://static.6pence.cn/img/ground2.jpg'
+    pic: 'http://m.6pence.cn/img/ground2.jpg'
   }
 ]

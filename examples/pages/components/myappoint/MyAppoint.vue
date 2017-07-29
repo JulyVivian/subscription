@@ -2,7 +2,7 @@
   <div>
     <lesson-list v-if="traderlessons.length > 0" :list="traderlessons" type="appoint"/>
     <div v-else class="empty-box">
-      <img src="http://static.6pence.cn/img/empty.png"/>
+      <img src="http://m.6pence.cn/img/empty.png"/>
       <p>操场空空如也～速去操练</p>
       <button>查看课程</button>
     </div>

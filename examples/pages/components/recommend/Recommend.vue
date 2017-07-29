@@ -4,17 +4,17 @@
       <p class="title">邀请朋友赢好礼</p>
       <p class="click-pot">点击右上角分享至微信好友或群</p>
       <p class="with">你和TA都将获得</p>
-      <img class="voucher" src="http://static.6pence.cn/img/coupon.png"/>
+      <img class="voucher" src="http://m.6pence.cn/img/coupon.png"/>
       <p class="has-invitated">你已邀请4位好友，共获得80元代金券</p>
     </div>
-    <img class="bottom-bg-pic" src="http://static.6pence.cn/img/down.jpg"/>
+    <img class="bottom-bg-pic" src="http://m.6pence.cn/img/down.jpg"/>
   </div>
 </template>
 <script></script>
 <style lang="less" scope>
   .recommend-box{
     width: 7.5rem;
-    background: url('http://static.6pence.cn/img/up.jpg') no-repeat top center;
+    background: url('http://m.6pence.cn/img/up.jpg') no-repeat top center;
     background-size: contain;
     padding-top: 2.62rem;
     text-align: center;
